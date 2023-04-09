@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-toast-notifications
+
+PATH: 
+  C:\Users\Dell\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Dell\AppData\Local\Programs\Python\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\Dell\AppData\Local\Programs\Python\Python38-32\;C;C:\Program Files\Git\cmd;C:\Users\Dell\Downloads\OSPanel\modules\php\PHP_7.4;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PostgreSQL\14\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Redis\;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;C:\Program Files\JetBrains\PyCharm 2020.1\bin;C:\Program Files\JetBrains\PhpStorm 2020.3.2\bin;C:\Users\Dell\AppData\Roaming\Composer\vendor\bin;C:\OpenServer\modules\php\PHP_8.0;C:\Users\Dell\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2022.2.2\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\bin;C:\Program Files\JetBrains\DataGrip 2022.2.2\bin;C:\Users\Dell\AppData\Local\JetBrains\Toolbox\scripts;;C:\Learn\chat\ChatApplication\react-client\node_modules\.bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.17.6
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Learn\chat\ChatApplication\react-client\node_modules\bufferutil\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "chatapp",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.16.1",
+      "@testing-library/react": "^12.1.2",
+      "@testing-library/user-event": "^13.5.0",
+      "axios": "^1.3.5",
+      "net": "^1.0.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "5.0.0",
+      "sockjs-client": "^1.5.2",
+      "stompjs": "^2.3.3",
+      "web-vitals": "^2.1.2"
+    },
+    "proxy": "http://localhost:8080",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
